@@ -1,0 +1,114 @@
+/* ---------- Sub1_2 ---------- */
+/* 중간탭 */
+#content .tab_menu_all .tab_menu {
+    /* width: 1200px; */
+    margin: 50px auto 0 auto;
+    display: flex;
+    gap: 2%;
+}
+
+#content .tab_menu_all .tab_menu li {
+    width: 23.5%;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    /* transition: all 0.3s ease-out; */
+    overflow: hidden;
+}
+#content .tab_menu_all .tab_menu li a {
+    color: #007aca;
+    display: block;
+    padding: 5px 0;
+    background: #f3f3f3;
+    border: 1px solid #007aca;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.3s ease-out; */
+}
+
+#content .tab_menu_all .tab_menu .current {
+    background: #007ac3;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* ---------- 본문 영역 ---------- */
+#content .content_area .his_list {
+    margin: 10px auto;
+    width: 93%;
+}
+
+#content .history_cur {
+    margin: 0 0 100px 20px;
+}
+
+#content .history_cur li {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* margin-bottom: 10px; */
+    position: relative;
+    /* padding-bottom: 10px; */
+}
+
+#content .his_list ol li .line {
+    position: absolute;
+    top: 50px;
+    left: -11px;
+    height: calc(100% + 100px); /* 높이를 li의 전체 높이 + 여분으로 설정 */
+    width: 2px;
+    border-right: 2px solid #ccc;
+}
+
+#content .his_list ol li:last-child .line {
+    position: absolute;
+    top: 50px;
+    left: -11px;
+    height: 95%; 
+    width: 2px;
+    border-right: 2px solid #ccc;
+}
+
+
+#content .his_list ol li .marker {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #007ac3;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: -5px;
+    top: -17px;
+}
+
+#content .history_cur li dl {
+    flex: 1;
+    padding-left: 20px; /* 텍스트 왼쪽 여백 추가 */
+    margin-top: 25px; /* 텍스트 위치 조정 */
+}
+
+#content .history_cur li dl dt {
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: #007ac3;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#content .history_cur li dl dd {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 1.13rem;
+    line-height: 2rem;
+}
+
+#content .history_cur li dl dd strong {
+    margin-right: 10px;
+    flex-shrink: 0;
+    width: 10px;
+}
+

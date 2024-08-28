@@ -1,0 +1,116 @@
+/* 서브 이미지 영역 */
+.sub_visual>span::before{
+    content: 'We Connet the Future';
+    display: block; position: absolute;
+    width: 100%; top: -15px; text-align: center;
+    font-size: 1rem; font-weight: 200;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, .3);}
+
+/* 중간 메뉴 */
+.sub_nav li{
+    width: 50%;
+    float: left;}
+
+/* ---------- 본문 영역 ---------- */
+/* ---------- Sub3_2_e---------- */
+/* 중간버튼 */
+#content .environment_01 .mid_menu{
+    padding: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#content .environment_01 .mid_menu li{
+    border-radius: 20px 0 0 0;
+    width: 110px;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+#content .environment_01 .mid_menu li a{
+    font-size: .85rem;
+    color: #fff;
+}
+
+#content .environment_01 .mid_menu li:nth-of-type(1){
+    background: url(../images/sub3/esg_mid_button_1.jpg) no-repeat;
+}
+#content .environment_01 .mid_menu li:nth-of-type(2){
+    background: url(../images/sub3/esg_mid_button_2.jpg) no-repeat;
+}
+#content .environment_01 .mid_menu li:nth-of-type(3){
+    background: url(../images/sub3/esg_mid_button_3.jpg) no-repeat;
+}
+
+#content .environment_01 .mid_menu li div{
+    border: 2px solid #fff;
+    width: 60px; height: 60px;
+    border-radius: 100px ;
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+}
+
+#content .environment_01 img{
+    width: 100%;
+    margin: 50px auto;
+}
+
+#content .environment_02 .eco_1{
+    position: relative; /* 이 컨테이너 안에서 상대 위치를 설정 */
+    margin-top: 50px;
+}
+
+#content .environment_02 .eco_back{
+    text-align: center;
+    margin: 0 auto ;
+}
+
+#content .environment_02 .eco_box .eco_back{
+    width: 150px;
+    height: 150px;
+    background: #007AC3;
+    border-radius: 100px;
+    margin: 30px auto -60px auto;
+    position: relative;
+    z-index: 1;
+}
+
+#content .environment_02 .eco_box .eco_back img{
+    width: 100px;
+    margin: 25px;
+}
+
+#content .environment_02 div>ul>h4{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#content .environment_02 .eco_box .eco_con{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 0 0 30px 0;
+    line-height: 1.5rem;
+    list-style: disc;
+    text-align: left;
+}
+        
+#content .environment_02 .eco_box .eco_con li {
+    display: flex;
+    justify-content: center; /* 텍스트를 가운데 정렬 */
+    align-items: center;
+}
+
+#content .environment_03 div{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+#content .environment_03 div img{
+    margin-bottom: 10px;
+}

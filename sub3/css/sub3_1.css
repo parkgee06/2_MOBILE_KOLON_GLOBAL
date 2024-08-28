@@ -1,0 +1,225 @@
+/* 서브 이미지 영역 */
+.sub_visual>span::before{
+    content: 'We Connet the Future';
+    display: block; position: absolute;
+    width: 100%; top: -15px; text-align: center;
+    font-size: 1rem; font-weight: 200;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, .3);}
+
+/* 중간 메뉴 */
+.sub_nav li{
+    width: 50%;
+    float: left;}
+
+/* ---------- 본문 영역 ---------- */
+/* ---------- Sub3_1 ---------- */
+
+/* 안전보건경영의 실제 본문 내용 css */
+/* 중간버튼 */
+#content .safty_nav ul{
+    display: flex;
+    justify-content: center;
+    width:640px;
+    padding: 30px 0 50px 0;
+    margin: 0 auto;
+    }
+#content .safty_nav li{
+    background: #007AC3;
+    margin: 10px; color: #fff; 
+    border-radius: 15px;
+    padding:15px 20px; box-sizing: border-box;
+    text-align: center;
+    }
+
+#content .content_area .safty h4{
+    text-align: center;
+    font-weight: 500;
+    padding-top: 200px;
+    } 
+
+/* #content .content_area .safty p{text-align: justify;} */
+
+#content .safety_info .principles{overflow: hidden;}
+#content .safety_info .principles .p2{
+    text-align: justify;
+    margin: 25px 0 80px 0;
+    }
+
+#content .safety_info .principles .p2 strong{
+    color: #007AC3;
+    }
+    
+#content .safety_info .principles .principles_box{
+    overflow: hidden;
+    counter-reset: number 0;
+    }
+
+#content .safety_info .principles dl{
+    width: 360px;
+    /* margin: 0 20px 50px;  */
+    float: left;
+    font-size: 0.89rem;
+    color: #858885;
+    padding-bottom: 50px;
+    position: relative;
+    }
+
+/* #content .safety_info .principles dl::after{
+    content: '0' counter(number); 
+    counter-increment:number 1;font-size: 8em;
+    color: #f8f8f8; position: absolute;
+    right:-20px; bottom:-80px;
+    } */
+
+#content .safety_info .principles dt{
+    margin-bottom: 10px; position: relative;
+    }
+#content .safety_info .principles dt::after{
+    content: ''; display: block;
+    width:360px ; height: 2px; background: #f8f8f8;
+    position: absolute; top:75px; left:0; z-index: -1;
+    }
+
+#content .safety_info .principles dt img{
+    width: 62px; height: 59px;
+    margin-bottom: 15px ;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #007AC3;}
+
+#content .safety_info .principles dt span{
+    display: block;
+    font-size: 1.2em;
+    font-weight:600;
+    color:#333
+    }
+
+#content .safety_info .principles dd{
+    font-size: 1rem; font-weight: 500; color: #333333; 
+    padding: 10px 0; text-align: justify;
+    }
+
+#content .safety_info .managerial ul{
+    padding: 30px 0 5px 0 ;
+    justify-content:center;
+    }
+
+#content .safety_info .managerial li{
+    width: 300px;
+    border: 3px solid #007AC3;
+    border-radius: 15px 0 0 0;
+    padding: 20px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    margin: 0 auto 50px auto;
+    }
+
+#content .safety_info .managerial li::after{
+    content: '+';
+    display: block;
+    position: absolute;
+    right:165px;
+    bottom: -35px;
+    }
+
+#content .safety_info .managerial li:last-child:after{
+    content: ''; display: none;}
+
+#content .safety_info .managerial table{
+    margin: 30px auto 0 auto;
+    width: 640px; line-height: 1.5rem;
+    }
+
+#content .safety_info .managerial table th, #content .safety_info .managerial table td{
+    border: 1px solid #ccc; padding: 10px; line-height: 1.5em;}
+#content .safety_info .managerial table thead tr{background: #ccc;}
+#content .safety_info .managerial table tbody th{text-align: left;}
+
+/* 안전보건 경영 시스템 */
+#content .management .management_bg{
+    margin: 50px auto 200px auto;
+    width: 640px; height: 266px;
+    background: url(../images/sub3/management_sys.png) no-repeat;
+    position: relative;}
+    
+#content .management ul{position: absolute; width: 200px;}
+#content .management ul:nth-of-type(1){
+    left: 15px; top: -20px;}
+#content .management ul:nth-of-type(2){
+    right: -15px; top: -20px;}
+#content .management ul:nth-of-type(3){
+    left: 15px; bottom:-100px;}
+#content .management ul:nth-of-type(4){
+    right: -15px; bottom: -68px;}
+
+#content .management .p3{
+    font-size: .95rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    }
+    
+#content .management li{
+    list-style: disc;
+    font-size: .7rem;
+    /* padding-left: 10px; */
+    position: relative;
+    margin-left: 25px;
+    }
+
+/* #content .management li::before{
+    content: ''; display: block; width: 4px; height: 4px;
+    border-radius: 50%; background: #333;
+    position: absolute;
+    left:0; top:11px;
+    } */
+
+/* #content .certification{} */
+#content .certification img{
+    width: 304px; height: 430px;
+    border: 1px solid #333333;
+    margin: 20px 0 30px; }
+
+/* #content .certification a{
+    width: 177px ; padding: 10px;
+    border-radius: 5px; border: 1px solid #333333;
+    margin: 0 auto;} */
+    
+#content .certification>div{text-align: center;}
+#content .certification_click p{
+    text-align: center; font-size: 1rem;
+    color: #858585 ; margin: 0 auto;}
+
+/* 안전보건 상생경영 지원 */
+#content .management2 .manage_table{margin:30px auto 50px auto ;}
+#content .management2 li{margin-bottom: 30px;}
+/* #content .management2 li dl{
+    display: flex;
+    justify-content: space-between;} */
+#content .management2 li dt{
+    width: 150px;
+    background: #007AC3;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 20px 0 0 0;
+    padding: 5px 0;
+    position: relative;
+    }
+
+/* #content .management2 li dt::after{
+    content: ''; display: block;
+    width: 30px; height: 3px;
+    background: #007AC3; position:absolute;
+    right:-30px; top:30px;
+    } */
+
+#content .management2 li dd{
+    padding:10px 20px;
+    /* width: 450px; */
+    border: 1px solid #ccc;}
+#content .management2 li dd strong{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.05em;
+}

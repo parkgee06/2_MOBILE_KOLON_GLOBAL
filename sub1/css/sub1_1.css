@@ -1,0 +1,23 @@
+/* ---------- Sub1_1 ---------- */
+/* CEO 인사말 */
+#content .content_area section .ceo_message .sub1_cont1{
+    margin: 20px 0 30px 0;
+    display: block; text-align: center;
+}
+#content .content_area section .ceo_message .sub1_cont1>img{
+    width: 100%;
+}
+#content .content_area section .ceo_message .sub1_cont1_bottom{
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+    text-align: right;
+    margin: 0 auto;
+}
+#content .content_area section .global_vision>p{
+    margin-bottom: 50px;
+}
+#content .content_area section .global_vision>img{
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,60 @@
+
+/* ---------- 본문 영역 ---------- */
+/* ---------- Sub1_3 ---------- */
+/* 오시는 길 */
+#content .content_area section .location #map{
+    border: 1px solid #ccc;
+    width: 95%; height: 360px; margin: auto;
+    margin-bottom: 30px;
+}
+#content .content_area section .location ul{
+    margin: auto; }
+#content .content_area section .location ul li{
+    display: flex; gap: 15px;justify-content: center;
+    margin-bottom: 15px; }
+#content .content_area section .location ul li>p{
+    padding: 5px 0; }
+#content .content_area section .location ul li>img{
+    width: 25px;
+    padding-top: 5px;
+    height: 25px;
+}
+#content .content_area section .location ul li:nth-of-type(1)>img{
+    padding-top: 12px;
+}
+
+
+/* 버스 */
+#content .content_area section .bus_content{
+    margin: 0 auto;
+}
+
+#content .content_area section .bus_content .bus_info{
+    /* text-align: center; */
+    margin: 0 auto;
+}
+#content .content_area section .bus_content .bus_info dl{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#content .content_area section .bus_content .bus_info dt{
+    width: 60px;  color: #fff;
+    padding: 1px 0 3px 0;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    font-size: .95rem;
+    font-weight: 500;
+}
+#content .content_area section .bus_content .bus_info dl dd:nth-of-type(1){
+    font-weight: 500; }
+#content .content_area section .bus_content .bus_info .bus_blue{background: #1888ce;}
+#content .content_area section .bus_content .bus_info .bus_green{background: #0bb12f; }
+#content .content_area section .bus_content .bus_info .bus_red{ background: #db2209; }
+#content .content_area section .bus_content .bus_info .bus dd{margin-left: 95px;}   
+#content .content_area section .bus_content .bus_info dl dd{margin-bottom: 10px; margin-left: 69px;}
+#content .content_area section .bus_content .bus_info dl dd:nth-of-type(2){clear: both;}
+
+/* 지하철 */
+#content .content_area section .subway_content p{text-align: center;}
