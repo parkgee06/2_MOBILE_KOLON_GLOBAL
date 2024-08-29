@@ -1,0 +1,40 @@
+/* 중간탭 */
+#content .tab_menu_all {
+    margin: 0 auto;
+    max-width: 100%; /* 전체 너비 사용 */
+    /* padding: 0 10px; */
+}
+
+#content .tab_menu_all .tab_menu {
+    display: flex;
+    flex-wrap: nowrap; /* 한 줄로 유지 */
+    gap: 10px;
+    padding: 0;
+    justify-content: center; /* 균등 분배 */
+}
+
+#content .tab_menu_all .tab_menu li {
+    flex: 0 0 auto; /* 크기 고정 */
+    width: 55px; /* 아이폰 아이콘 크기와 비슷하게 설정 */
+    height: 55px; /* 정사각형 유지 */
+} 
+
+#content .tab_menu_all .tab_menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px; /* 모서리 둥글게 */
+    border: 1.5px solid #007ac3;
+    background: #f3f3f3;
+    color: #007ac3;
+    font-weight: 500;
+    font-size: 1rem; /* 글자 크기 조정 */
+    padding: 2px;
+    /* transition: all ease-in-out .3s; */
+    box-sizing: border-box;
+    text-align: center;
+    /* word-break: keep-all;  */
+}
+
