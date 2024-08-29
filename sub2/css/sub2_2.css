@@ -1,0 +1,199 @@
+#content .content_area section h5{
+    font-size: 1.5rem;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 400;
+}
+#content .content_area .marker {
+    margin: 40px 0 13px 0;
+}
+
+#content .content_area .marker > strong {
+    position: relative;
+    font-size: 1.2rem;
+    padding-left: 40px;
+    /* border: 1px solid red; */
+}
+
+#content .content_area .marker > strong::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    color: #fff;
+    border: 8px solid #ed1b2e;
+}
+
+#content .content_area .con_text .product {
+    margin-top: 10px;
+}
+    
+#content .content_area .con_text .p2 {
+    /* padding-left: 42px; */
+    margin-bottom: 25px;
+}
+
+#content .content_area .con_text .p2 li{
+    margin-bottom: 5px;
+    line-height: 1.8rem;
+}
+/* 
+#content .content_area .con_text .p2 li {
+    display: flex;
+} */
+
+#content .content_area .con_text .p2 li dt {
+    flex-shrink: 0;
+    font-weight: 500;
+    color: #333;
+    display: inline-block;
+}
+
+#content .content_area .con_text .p2 li dd {
+    flex-grow: 1;
+    margin-left: 0;
+    text-indent: 0;
+    position: relative;
+}
+
+/* #content .content_area .con_text .p2 li dd::after {
+    content: "";
+    width: 2px;
+    height: 93%;
+    background: #c2c2c2;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: inherit;
+} */
+
+
+
+
+
+
+#content .content_area .con_back {
+    width: 100%;
+    height: 200px;
+    /* padding: 100px 0; */
+    color: #fff;
+    text-align: center;
+    filter: grayscale(50%);
+    z-index: 1;
+}
+
+#content .content_area .chemical_1 .con_back {
+    background: url(../images/sub2_2/content1/chemical_1.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content .content_area .chemical_2 .con_back {
+    background: url(../images/sub2_2/content1/chemical_2.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content .content_area .chemical_3 .con_back {
+    background: url(../images/sub2_2/content1/chemical_3.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content .content_area .chemical_4 .con_back {
+    background: url(../images/sub2_2/content1/chemical_4.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* ----- sub2 파랑 박스 공통----- */
+#content .content_area .point {
+    border-radius: 20px;
+    border: 2px solid #007ac3;
+    padding: 30px;
+    margin: 30px auto;
+    /* position: relative; */
+}
+
+#content .content_area .point > span:first-child {
+    /* position: absolute; */
+    /* top: -25px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #007ac3;
+    /* background: #007ac3; */
+    /* border-radius: 20px; */
+    /* padding: 5px 50px 8px 50px; */
+    /* white-space: nowrap; */
+}
+
+#content .content_area .point p {
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* ---공통, 담당자 연락처, 표 */
+#content .content_area table {
+    margin: 25px auto 100px auto;
+    width: 1200px;
+    line-height: 1.5rem;
+    border-top: 2px solid #666;
+}
+
+#content .content_area table th {
+    font-weight: 600;
+    color: #111;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #ddd;
+    background: #f9f9f9;
+    line-height: 1.5em;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#content .content_area table td {
+    text-align: center;
+    /* font-weight: 300; */
+    color: #444444;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 20px 30px;
+}
+
+/* #content .content_area table tbody tr:last-of-type {
+    border-bottom: 1px solid #808080;
+} */
+#content .content_area table td:last-of-type,
+#content .content_area table th:last-of-type {
+    border-right: none;
+}
+
+#content .content_area table thead tr {
+    border-bottom: 1px solid #ddd;
+    background: #ccc;
+}
+
+/* #content .content_area table tbody tr:last-of-type td {
+    border-bottom: 1px solid #808080;
+}
+
+#content .content_area table tbody tr:last-of-type {
+    border-bottom: 1px solid #808080;
+} */
+
+#content .content_area table tbody th {
+    text-align: center;
+}

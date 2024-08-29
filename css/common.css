@@ -67,7 +67,7 @@ label { cursor:pointer; }
     position: relative;
     overflow:hidden;
 }
-#content .content_area{
+#content .content_area:not(.con_back){
     width: 93%;
     margin: 0 auto;
     /* margin-bottom: 100px; */
@@ -275,7 +275,7 @@ label { cursor:pointer; }
     margin: 30px auto 0 auto;
 }
 #gnb .jl li{
-    width: 12%;
+    width: 15%;
     text-align: center;
 }
 #gnb .jl::after{
