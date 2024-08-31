@@ -1,0 +1,72 @@
+{
+    "chemical": [
+    {
+        "attImg": "./images/sub2_2/content1/chemical_1.jpg",
+        "attTitle": "1. 화섬원료",
+        "attText1": "국내외 글로벌 제조사의 전략적 파트너십을 바탕으로 고품질 화학원료 제품을 국내 및 전세계에 안정적으로 공급하고 있습니다.",
+        "popupHead": "화섬원료",
+        "popupImg1": "./images/sub2_2/content1/trade_1_a.jpg",
+        "popupImg2": "./images/sub2_2/content1/trade_1_b.jpg",
+        "main_tex": "전문 인력과 오랜 기간 동안 축적된 노하우로 국내외의 유수한 바이어들에게 공급하고 있습니다. 기술개발 및 신규시장 확대와 사업 영역 확장을 통해 화학업계의 선두주자로 나아갈 것입니다.",
+        "td": "국내외 글로벌 제조사의 전략적 파트너십을 바탕으로 고품질 화학원료 제품을 국내 및 전세계에 안정적으로 공급하고 있습니다.",
+        "td1": "PETChip - Bottle / Fiber / Film 용도",
+        "td2": "NylonChip - Fiber / Film / Compounding 용도",
+        "td3": "Fiber - Polyester & Nylon 장섬유 / 단섬유",
+        "td4": "친환경 - 재생 PET Chip (Bottle, Sheet, Filament용) / PET Flake",
+        "tel1": "화섬원료",
+        "tel2": "김태형 주임",
+        "tel3": "02-3677-5677"
+    },
+    {
+        "attImg": "./images/sub2_2/content1/chemical_2.jpg",
+        "attTitle": "2. 비료화학",
+        "attText1": "국내외 글로벌 제조사의 전략적 파트너십을 바탕으로 고품질 화학원료 제품을 국내 및 전세계에 안정적으로 공급하고 있습니다.",
+        "popupHead": "비료화학",
+        "popupImg1": "./images/sub2_2/content1/trade_2_a.jpg",
+        "popupImg2": "./images/sub2_2/content1/trade_2_b.jpg",
+        "main_tex": "전세계적으로 식량자원의 중요성이 대두됨에 따라 향후 꾸준한 성장이 전망되는 산업입니다.",
+        "td": "과거 수십년 동안의 풍부하고 전문화된 비료 및 농약 트레이딩(수출, 수입, 오퍼, 삼국간 거래) 노하우를 바탕으로, 다양한 고객의 요구를 만족시킬 수 있는 세심하 고 신속한 서비스를 제공함으로써, 당신의 성공적인 비료 비즈니스 수행의 동반자가 되어 드리겠습니다. 국내외 유수의 비료 및 농약 제조업체와 협업하여 브랜드 마케팅을 통해 제품 판매망을 더욱 공고히 하고 있으며, 신규 시장 및 친환경 제품 개발을 통해 더욱 비료화학 사업을 고도화하고 있습니다. 주요 취급 제품은 NPK, DAP, AS(Ammonium Sulphate), ASN(Ammonium Sulphate Nitrate), 요소, SOP, MOP, NA(Nitric Acid), 제초제 등입니다.",
+        "td1": "PETChip - Bottle / Fiber / Film 용도",
+        "td2": "NylonChip - Fiber / Film / Compounding 용도",
+        "td3": "Fiber - Polyester & Nylon 장섬유 / 단섬유",
+        "td4": "친환경 - 재생 PET Chip (Bottle, Sheet, Filament용) / PET Flake",
+        "tel1": "비료화학",
+        "tel2": "최웅 대리",
+        "tel3": "02-3677-5668"
+    },
+    {
+        "attImg": "./images/sub2_2/content1/chemical_3.jpg",
+        "attTitle": "3. 산업소재/수지",
+        "attText1": "국내외 글로벌 제조사의 전략적 파트너십을 바탕으로 고품질 화학원료 제품을 국내 및 전세계에 안정적으로 공급하고 있습니다.",
+        "popupHead": "산업소재/수지",
+        "popupImg1": "./images/sub2_2/content1/trade_3_a.jpg",
+        "popupImg2": "./images/sub2_2/content1/trade_3_b.jpg",
+        "main_tex": "전문 인력과 오랜 기간 동안 축적된 노하우로 국내외의 유수한 바이어들에게 공급하고 있습니다. 기술개발 및 신규시장 확대와 사업 영역 확장을 통해 화학업계의 선두주자로 나아갈 것입니다.",
+        "td": "국내외 글로벌 제조사의 전략적 파트너십을 바탕으로 고품질 화학원료 제품을 국내 및 전세계에 안정적으로 공급하고 있습니다.",
+        "td1": "PETChip - Bottle / Fiber / Film 용도",
+        "td2": "NylonChip - Fiber / Film / Compounding 용도",
+        "td3": "Fiber - Polyester & Nylon 장섬유 / 단섬유",
+        "td4": "친환경 - 재생 PET Chip (Bottle, Sheet, Filament용) / PET Flake",
+        "tel1": "산업소재/수지",
+        "tel2": "김성환 과장",
+        "tel3": "02-3677-5667"
+    },
+    {
+        "attImg": "./images/sub2_2/content1/chemical_4.jpg",
+        "attTitle": "4. 정밀화학/의약",
+        "attText1": "국내외 글로벌 제조사의 전략적 파트너십을 바탕으로 고품질 화학원료 제품을 국내 및 전세계에 안정적으로 공급하고 있습니다.",
+        "popupHead": "정밀화학/의약",
+        "popupImg1": "./images/sub2_2/content1/trade_4_a.jpg",
+        "popupImg2": "./images/sub2_2/content1/trade_4_b.jpg",
+        "main_tex": "전문 인력과 오랜 기간 동안 축적된 노하우로 국내외의 유수한 바이어들에게 공급하고 있습니다. 기술개발 및 신규시장 확대와 사업 영역 확장을 통해 화학업계의 선두주자로 나아갈 것입니다.",
+        "td": "국내외 글로벌 제조사의 전략적 파트너십을 바탕으로 고품질 화학원료 제품을 국내 및 전세계에 안정적으로 공급하고 있습니다.",
+        "td1": "PETChip - Bottle / Fiber / Film 용도",
+        "td2": "NylonChip - Fiber / Film / Compounding 용도",
+        "td3": "Fiber - Polyester & Nylon 장섬유 / 단섬유",
+        "td4": "친환경 - 재생 PET Chip (Bottle, Sheet, Filament용) / PET Flake",
+        "tel1": "정밀화학/의약",
+        "tel2": "이효정 대리",
+        "tel3": "02-3677-4654"
+    }
+]
+}

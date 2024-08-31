@@ -67,7 +67,7 @@ label { cursor:pointer; }
     position: relative;
     overflow:hidden;
 }
-#content .content_area:not(.con_back){
+#content .content_area{
     width: 93%;
     margin: 0 auto;
     /* margin-bottom: 100px; */
