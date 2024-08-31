@@ -13,7 +13,6 @@ function onOff() {
         document.body.classList.remove('scroll_lock');
         popupBack.style.display = 'none';
         popupContainer.style.display = 'none';
-        // 추가된 부분: 스크롤 잠금 해제
         document.body.style.overflow = 'auto';
     }
 
@@ -45,22 +44,30 @@ function onOff() {
 
     function popupPrint(popupData) {
         const popupBtns = document.querySelectorAll('.popbtn');
-
+    
         popupBtns.forEach(function(popupBtn, index) {
             popupBtn.addEventListener('click', function(e) {
                 e.preventDefault();
                 popupBack.style.display = 'block';
                 popupContainer.style.display = 'block';
+                
+                // 애니메이션을 위해 setTimeout 사용
+                setTimeout(() => {
+                    popupContainer.classList.add('show');
+                }, 10);
                 document.body.classList.add('scroll_lock');
-                // 추가된 부분: 스크롤 잠금
                 document.body.style.overflow = 'hidden';
 
                 let popupContent = `
                     <p>${popupData[index].popupHead}</p>
-                    <div>
-                        <img src="${popupData[index].popupImg1}" alt="${popupData[index].popupHead}">
-                        <img src="${popupData[index].popupImg2}" alt="${popupData[index].popupHead}">
-                    </div>
+                    <ul>
+                        <li>
+                            <img src="${popupData[index].popupImg1}" alt="${popupData[index].popupHead}">
+                        </li>
+                        <li>
+                            <img src="${popupData[index].popupImg2}" alt="${popupData[index].popupHead}">
+                        </li>
+                    </ul>
                     <p>${popupData[index].main_tex}</p>
                     <dl>
                         <dt><span></span>사업내용</dt>
@@ -113,4 +120,4 @@ function onOff() {
     attractionXhr.send();
 }
 
-onOff();
+onOff(); 
