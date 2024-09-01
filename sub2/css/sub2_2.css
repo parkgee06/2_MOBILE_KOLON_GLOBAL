@@ -1,3 +1,5 @@
+
+
 /* ----- sub2 파랑 박스 공통----- */
 #content .content_area .point {
     border-radius: 20px;
@@ -24,7 +26,7 @@
     display: block;
     text-decoration: none;
     color: inherit;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
 }
 
 #content .content_area section  .con_item .chemical_1 ul li a .top_img{

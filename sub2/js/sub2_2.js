@@ -10,10 +10,14 @@ function onOff() {
     const closeBtn = document.querySelector('.close_btn');
 
     function deleteAll() {
-        document.body.classList.remove('scroll_lock');
-        popupBack.style.display = 'none';
-        popupContainer.style.display = 'none';
-        document.body.style.overflow = 'auto';
+        // 팝업 닫기 애니메이션
+        popupContainer.classList.remove('show');
+        setTimeout(() => {
+            document.body.classList.remove('scroll_lock');
+            popupBack.style.display = 'none';
+            popupContainer.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }, 300); // 팝업 닫는 애니메이션 시간 (300ms 정도)
     }
 
     function dataPrint(data) {
@@ -51,10 +55,11 @@ function onOff() {
                 popupBack.style.display = 'block';
                 popupContainer.style.display = 'block';
                 
-                // 애니메이션을 위해 setTimeout 사용
+                // 팝업 열기 애니메이션
                 setTimeout(() => {
                     popupContainer.classList.add('show');
                 }, 10);
+
                 document.body.classList.add('scroll_lock');
                 document.body.style.overflow = 'hidden';
 
