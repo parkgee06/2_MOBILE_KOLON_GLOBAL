@@ -75,15 +75,21 @@ function onOff() {
                     </ul>
                     <p>${popupData[index].main_tex}</p>
                     <dl>
-                        <dt><span></span>사업내용</dt>
+                        <dt>
+                            <span></span>
+                            <p>사업내용</p>
+                        </dt>
                         <dd>${popupData[index].td}</dd>
                         <dd>${popupData[index].td1}</dd>
                         <dd>${popupData[index].td2}</dd>
                         <dd>${popupData[index].td3}</dd>
                         <dd>${popupData[index].td4}</dd>
                         <dt>
-                            <span></span>사업문의
-                            <p>질문이나 상담을 원하시면 전화로 문의 부탁드립니다.</p>
+                            <span></span>
+                            <div>
+                                <p>사업문의</p>
+                                <p>질문이나 상담을 원하시면 전화로 문의 부탁드립니다.</p>
+                            </div>
                         </dt>
                         <dd>
                             <table>
