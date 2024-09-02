@@ -77,11 +77,12 @@
 
 #content .content_area .con_text {
     margin: 20px auto;
+    text-align: center;
 }
 
 #content .content_area .con_text .serch_box {
     width: 100%;
-    margin: 20px auto 50px;
+    margin: 20px auto 50px auto;
 }
 #content .content_area .con_text .serch_box label {
     font-size: 1rem;
