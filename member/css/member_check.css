@@ -11,9 +11,11 @@ body{
 }
 
 #content{
-    width: 750px; margin: 20px auto;
-    background: #fff; border-radius: 10px;
-    padding: 70px;
+    width: 90%;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -47,15 +49,18 @@ body{
     position: relative;
 }
 .join h4{
-    font-size: 20px;
+    font-size: 2rem;
     margin: 30px 0;
     color: #333;
+    font-weight: 700;
 }
 .join h3{
-    font-size: 28px;
+    font-size: 2.2rem;
     color: #333;
     margin-left: 42%;
     position: relative;
+    font-weight: 800;
+
 }
 
 
@@ -64,7 +69,7 @@ body{
     height: 80px; margin: 20px 0;
     border: 1px solid #ddd;
     background: #fff;
-    font-size: .78rem;
+    font-size: 1.1rem;
     line-height: 1.5rem;
 }
 .join .check{
@@ -77,11 +82,13 @@ body{
 .join .button .ok,.join .button button,.join .allcheck{
     display: inline-block;
     width: 300px;
-    line-height: 50px; height: 50px;
-    padding: 8px 0;border: none;
+    line-height: 50px;
+    height: 50px;
+    padding: 8px 0;
+    /* border: none; */
     background: #007AC3;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.65rem;
     cursor: pointer;
     margin: 0 5px;
     border-radius: 7px;
@@ -120,6 +127,7 @@ input[type=checkbox] {
 }
 input[type=checkbox] + label {
     cursor: pointer;
+    font-size: 1.6rem;
 }
 /* 체크박스타입의 인풋이 :checked  => 체크되면 + 라벨의 비포*/
 input[type=checkbox]:checked + label::before {

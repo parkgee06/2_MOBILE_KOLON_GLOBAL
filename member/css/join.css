@@ -73,7 +73,7 @@ h1 a{
     box-sizing: border-box;
 }
 #content form li input#hp2, #content form li input#hp3{
-    width: 31.4%;
+    width: 30%;
 } 
 #content form li #hp1{
     width: 31.5%; height: 54px; padding-left: 10px;
@@ -87,7 +87,7 @@ h1 a{
     font-size: .9rem;} 
 
 #content form li input#mail1, #content form li input#mail2{
-    width: 47.5%;
+    width: 45%;
 }
 
 #content form li input:focus{

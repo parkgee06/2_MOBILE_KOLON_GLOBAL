@@ -3,12 +3,9 @@ body{
     font-size: 16px;
 }
 h1 a{
-    margin: 50px auto 0;
-    display: block;
-    width: 298px;
-    height: 27px;
-    text-indent: -9999px; overflow: hidden;
-    background: url(../../common/images/logo_03.png) center no-repeat;
+    margin: 50px auto 0; display: block; width: 298px;
+    height: 27px; text-indent: -9999px; overflow: hidden;
+    background: url(../../images/common/logo.png) center no-repeat;
 }
 
 #content{
@@ -16,9 +13,10 @@ h1 a{
     margin: 50px auto;
     background: #fff;
     border-radius: 10px;
-    padding: 50px 80px;
+    padding: 20px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
+    box-sizing: border-box;
     }
 
 #content h2{
@@ -59,6 +57,7 @@ h1 a{
     font-weight: 500;
     height: 60px;
     cursor: pointer;
+    padding-left: 0;
 }
 #content form input:focus{
     outline-color: #007ac3;
@@ -70,8 +69,8 @@ h1 a{
 }
 
 #content div:nth-of-type(1){
-    margin-left: 50%;
-    transform: translateX(-40%);
+    text-align: center;
+    margin: 10px 0 20px 0;
 }
 #content div:nth-of-type(1) a{
     font-weight: 400;
@@ -90,9 +89,11 @@ h1 a{
     left: -8px; top: 7px;
 }
 #content div:nth-of-type(2){
-    width: 100%; margin-top: 50px;
-    margin-left: 50%;
-    transform: translateX(-30%);
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-left: 50%; */
+    /* transform: translateX(-30%); */
 }
 #content div:nth-of-type(2) span{
     color: #666;
