@@ -10,8 +10,9 @@ h1 a{
     text-indent: -9999px; overflow: hidden;
     background: url(../../common/images/logo_03.png) center no-repeat;
 }
+
 #content{
-    width: 400px;
+    width: 90%;
     margin: 50px auto;
     background: #fff;
     border-radius: 10px;

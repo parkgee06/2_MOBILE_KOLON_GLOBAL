@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>회원가입</title>
-    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="./css/join.css">
 </head>
 <body>
@@ -39,7 +39,7 @@
                 </li>
                 <li>
                     <!-- 휴대폰은 접근성으로 인해 라벨을 직접 달지 않고 번호에... -->
-                    휴대폰<span>*</span><br>
+                    휴대폰 <span>*</span><br>
                     <label for="hp1" class="hidden">전화번호국번</label>
                     <select name="hp1" id="hp1">
                         <option value="010">010</option>
@@ -61,8 +61,10 @@
                     <input type="text" id="mail2" name="mail2" placeholder="kolonglobal.com">
                 </li>
             </ul>
-            <input type="submit" value="회원가입">
-            <input type="reset" value="다시쓰기">
+            <div class="confirm">
+                <input type="submit" value="회원가입">
+                <input type="reset" value="다시쓰기">
+            </div>
         </form>
     </article>
 </body>
