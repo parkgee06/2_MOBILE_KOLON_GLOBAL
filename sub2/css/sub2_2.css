@@ -4,6 +4,7 @@
     width: 88%;
     text-align: center;
     line-height: 1.9rem;
+    font-size: .8rem;
 }
 
 #content .content_area table th {
@@ -383,35 +384,27 @@
 }
 #content .content_area section .con_item .main_text{
     margin: 0 15px 10px 45px;
+    font-size: .95rem;
 }
-#content .content_area section .con_item .main_text li{
-    display: flex;
-    gap: 15px;
-}
-/* 철강 사업아이템 */
-#content .content_area section .con_item .steel .main_text li dt{
-    width: 20%;
-    position: relative;
+#content .content_area section .con_item .contlist .main_text li{
+    /* display: flex; */
+    /* gap: 15px; */
+    margin-bottom: 5px;
 }
 
-/* 군수 사업아이템 */
-#content .content_area section .con_item .military .main_text li dt{
-    width: 11%;
+#content .content_area section .con_item  .main_text .item_tex1{
+    /* width: 80px; */
     position: relative;
-}
-
-/* 안전 사업아이템 */
-#content .content_area section .con_item .safety .main_text li dt{
-    width: 11%;
-    position: relative;
+    font-weight: 500;
 }
 
 #content .content_area section .con_item  .main_text li dd{
-    padding-left: 15px;
+    padding-left: 8px;
     position: relative;
+    font-size: .9rem;
 }
 
-#content .content_area section .con_item .main_text li dt::after{
+#content .content_area section .con_item  .main_text li dt::after{
     content: "";
     width: 4px;
     height: 4px;
@@ -423,7 +416,7 @@
     left: -15px;
 }
 
-#content .content_area section .con_item .main_text li dd::after{
+#content .content_area section .con_item .contlist .main_text li dd::after{
     content: "";
     width: 5px;
     height: 1px;
@@ -432,4 +425,11 @@
     top: 50%;
     transform: translateY(-50%);
     left: -7px;
+}
+
+/* BYD */
+
+#content .content_area section .con_item .byd img{
+    width: 400px;
+    height: auto;
 }
