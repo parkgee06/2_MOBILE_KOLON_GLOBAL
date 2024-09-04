@@ -7,14 +7,6 @@
     margin: 25px 0 35px 0;
 }
 
-/* 서브 이미지 영역 - 글씨 */
-.sub_visual>span::before{
-    content: 'SUSTAINABLE MANAGEMENT';
-    display: block; position: absolute;
-    width: 100%; top: -15px; text-align: center;
-    font-size: 1rem; font-weight: 200;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
-}
 
 /* 1 중간탭 */
 #content .tab_menu_all {
@@ -243,6 +235,10 @@ body.dropdown-open {
 #content .content_area .managerial{
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* 수직 가운데 정렬 */
 }
 #content .content_area .managerial ul {
     padding: 20px 0 35px 0;
@@ -254,22 +250,23 @@ body.dropdown-open {
     /* margin: 0 auto; */
 }
 #content .content_area .managerial ul li {
-    color: #fff;
+    color: #007ac3;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     font-size: 1.1rem;
     font-weight: 500;
-    position: relative;
     border: 5px solid #007ac3;
-    color: #007ac3;
     margin-bottom: 35px;
-    display: inline-block;
-    /* transition: all ease .5s; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
 }
 
 #content .content_area .managerial ul li p {
-    padding-top: 75px;
+    padding-top: 5px;
     text-align: center;
     position: relative;
 }
@@ -361,79 +358,6 @@ body.dropdown-open {
     top: 11px;
 }
 
-/* #content .content_area .certification{} */
-#content .content_area .certification p {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#content .content_area .certification .cert-container{
-    text-align: center;
-}
-
-#content .content_area .certification .cert-container img {
-    width: 350px;
-    height: auto;
-    border: 1px solid #333333;
-    margin: 15px auto 30px auto;
-}
-
-#content .content_area .certification .openBtn {
-    width: 177px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #333;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1rem;
-    color: #333;
-    transition: all ease .3s;
-}
-
-#content .content_area .certification .openBtn:hover {
-    background: #333;
-    color: #fff;
-}
-
-#content .content_area .certification .box, .popup{
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    /* transform: translate(-50%, -50%); */
-}
-
-#content .content_area .certification .box{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.5);
-}
-
-#content .content_area .certification .popup{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-    border: 1px solid #333;
-    background: #fff;
-    position: absolute;
-    padding: 10px;
-    overflow: hidden;
-    display: none;
-}
-#content .content_area .certification .popup .closeBtn{
-    position: absolute;
-    top: 25px; right: 5px; 
-    display: block;
-    text-indent: -999px;
-    overflow: hidden;
-    width: 32px; 
-    height: 32px;
-    padding: 9px;
-    background: url(../imgaes/content3/cancel.png) no-repeat;}
-
 
 #content .content_area .management2 ul {
     margin-bottom: 50px;
@@ -478,8 +402,141 @@ body.dropdown-open {
 }
 
 
+/* tab2 - 안전보건 경영시스템 */
+.safety_manage{
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 30px 0;
+
+}
+.safety_manage .container{
+    overflow: hidden;
+    position: relative;
+}
+
+.safety_manage .container .item_box{
+    /* width: 90%; */
+    /* display: flex; */
+    /* gap: 20px; */
+    /* padding: 50px 30px; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.safety_manage .img_box{
+    width: 180px;
+    height: 180px;
+    background: #007AC3;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto ;
+}
+.safety_manage .img_box img{
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.safety_manage dl{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.safety_manage dt{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    /* display: block; */
+}
+.safety_manage dd{
+    text-align: justify;
+}
+.safety_manage dd ul li{
+    line-height: 1.6rem;
+    margin-left: 50px;
+    position: relative;
+}
+.safety_manage dd ul li::after{
+    content: "";
+    /* border: 1px solid red; */
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #333;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -15px;
+}
+.safety_manage .next{
+    color: #ED1B2E;
+    position: absolute;
+    top: 50px;
+    /* transform: translateY(-50%); */
+    right: 20px;
+}
+.safety_manage .prev{
+    color: #ED1B2E;
+    position: absolute;
+    top: 50px;
+    /* transform: translateY(-50%); */
+    left: 20px;
+}    
+.safety_manage a span{
+    font-size: 5rem;
+}
+.safety_manage .text{
+    font-size: 1.2rem;
+    display: inline-block;
+    /* float: left; */
+    /* margin-right: 30px; */
+    font-weight: 400;
+    margin-top: 30px;
+    /* position: absolute;
+    bottom: 0;
+    right:0 */
+}
+
+/* --- 인증서 보기 --- */
+#content .content_area .certification p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#content .content_area .certification .cert-container{
+    text-align: center;
+}
+
+#content .content_area .certification .cert-container img {
+    width: 90%;
+    height: auto;
+    border: 1px solid #333333;
+    margin: 15px auto 30px auto;
+}
 
 
 
 
+#content .content_area .con_box_4.con_box_4 ul li{
+    border: 2px solid #007AC3;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
 
+#content .content_area .con_box_4.con_box_4 ul li dl dt{
+    text-align: center;
+    color: #007AC3;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+#content .content_area .con_box_4.con_box_4 ul li dl dd{
+    font-size: 1.2rem;
+}
