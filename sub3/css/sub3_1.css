@@ -1,3 +1,12 @@
+#content .content_area p strong {
+    color: #007ac3;
+}
+
+#content .p2{
+    text-align: justify;
+    margin: 25px 0 35px 0;
+}
+
 /* 서브 이미지 영역 - 글씨 */
 .sub_visual>span::before{
     content: 'SUSTAINABLE MANAGEMENT';
@@ -104,16 +113,16 @@ body.dropdown-open {
 /* Tab1 KGC 안전보건경영방침 */
 
 #content .content_area section .principles .main_text dl{
-    width: 360px;
-    /* margin: 0 20px 50px;  */
-    float: left;
+    width: 93%;
+    /* float: left; */
     font-size: 0.89rem;
     color: #858885;
     padding-bottom: 50px;
     position: relative;
+    margin: 0 auto;
 }
 
-#content .content_area section .principles .main_text dl::after {
+/* #content .content_area section .principles .main_text dl::after {
     content: "0" counter(number);
     counter-increment: number 1;
     font-size: 8rem;
@@ -122,13 +131,14 @@ body.dropdown-open {
     right: -10px;
     bottom: 125px;
     z-index: 1;
-}
+} */
 
 #content .content_area section .principles .main_text dt{
     margin-bottom: 10px;
     position: relative;
 }
-#content .content_area section .principles .main_text dt::after{
+
+/* #content .content_area section .principles .main_text dt::after{
     content: "";
     display: block;
     width: 270px;
@@ -138,31 +148,33 @@ body.dropdown-open {
     top: 75px;
     left: 0;
     z-index: -1;
-}
+} */
 
 #content .content_area section .principles .main_text dt img{
     width: 62px;
     height: 59px;
-    margin-bottom: 15px ;
-    padding-bottom: 15px;
+    margin: 8px 20px 5px 0;
+    padding-bottom: 10px;
     border-bottom: 3px solid #007AC3;
+    float: left;
 }
 
 #content .content_area section .principles .main_text dt span{
-    display: block;
+    display: inline-block;
     font-size: 1.2em;
     font-weight:600;
-    color:#333
-    }
+    color:#333;
+    /* position: absolute; */
+}
 
 #content .content_area section .principles .main_text dd{
     font-size: 1rem;
     font-weight: 500;
     color: #333333; 
-    padding: 10px 0;
+    /* padding: 10px 0; */
     text-align: justify;
 }
-
+ 
 
 
 
@@ -225,18 +237,245 @@ body.dropdown-open {
 
 /* #content .content_area .safty p{text-align: justify;} */
 
-#content .content_area p strong {
-    color: #007ac3;
-}
-
-#content .p2{
-    text-align: justify;
-    margin: 25px 0 35px 0;
-}
 
 
 /* h4 Managerial Objective */
+#content .content_area .managerial{
+    margin: 0 auto;
+    text-align: center;
+}
+#content .content_area .managerial ul {
+    padding: 20px 0 35px 0;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* gap: 40px; */
+    margin: 0 auto;
+    margin-top:35px ;
+    /* margin: 0 auto; */
+}
+#content .content_area .managerial ul li {
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    border: 5px solid #007ac3;
+    color: #007ac3;
+    margin-bottom: 35px;
+    display: inline-block;
+    /* transition: all ease .5s; */
+}
 
+#content .content_area .managerial ul li p {
+    padding-top: 75px;
+    text-align: center;
+    position: relative;
+}
+
+#content .content_area .managerial ul li p span {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#content .content_area .managerial ul li::after{
+    content: "" ;
+    color: #007ac3;
+    font-weight: 900;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    font-size: 4rem;
+}
+
+#content .content_area .managerial ul li:nth-of-type(1):after{
+    content: "1" ;
+}
+
+#content .content_area .managerial ul li:nth-of-type(2):after{
+    content: "2" ;
+}
+
+#content .content_area .managerial ul li:nth-of-type(3):after{
+    content: "3" ;
+}
+
+/* -------------------------------------------------------- */
+/* Tab2 안전보건 경영시스켐 */
+#content .content_area .management {
+    width: 100%;
+}
+#content .content_area .management p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+#content .content_area .management .management_bg {
+    width: 1164px;
+    height: 483px;
+    background: url(../imgaes/content3/management_sys.png);
+    margin-top: 100px;
+    position: relative;
+    font-size: 1.13rem;
+}
+#content .content_area .management .management_bg dl {
+    position: absolute;
+    width: 300px;
+}
+#content .content_area .management .management_bg dl:nth-of-type(1) {
+    left: 0;
+    top: 30px;
+}
+#content .content_area .management .management_bg dl:nth-of-type(2) {
+    right: 0;
+    top: 30px;
+}
+#content .content_area .management .management_bg dl:nth-of-type(3) {
+    left: 0;
+    bottom: 40px;
+}
+#content .content_area .management .management_bg dl:nth-of-type(4) {
+    right: 0;
+    bottom: 50px;
+}
+#content .content_area .management .management_bg dt {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#content .content_area .management .management_bg dd {
+    font-size: 0.85em;
+    padding-left: 10px;
+    position: relative;
+    margin-left: 15px;
+}
+#content .content_area .management .management_bg dd::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #333;
+    position: absolute;
+    left: 0;
+    top: 11px;
+}
+
+/* #content .content_area .certification{} */
+#content .content_area .certification p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#content .content_area .certification .cert-container{
+    text-align: center;
+}
+
+#content .content_area .certification .cert-container img {
+    width: 350px;
+    height: auto;
+    border: 1px solid #333333;
+    margin: 15px auto 30px auto;
+}
+
+#content .content_area .certification .openBtn {
+    width: 177px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    transition: all ease .3s;
+}
+
+#content .content_area .certification .openBtn:hover {
+    background: #333;
+    color: #fff;
+}
+
+#content .content_area .certification .box, .popup{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+}
+
+#content .content_area .certification .box{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#content .content_area .certification .popup{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border: 1px solid #333;
+    background: #fff;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    display: none;
+}
+#content .content_area .certification .popup .closeBtn{
+    position: absolute;
+    top: 25px; right: 5px; 
+    display: block;
+    text-indent: -999px;
+    overflow: hidden;
+    width: 32px; 
+    height: 32px;
+    padding: 9px;
+    background: url(../imgaes/content3/cancel.png) no-repeat;}
+
+
+#content .content_area .management2 ul {
+    margin-bottom: 50px;
+}
+#content .content_area .management2 li {
+    margin-bottom: 30px;
+}
+#content .content_area .management2 li dl {
+    display: flex;
+    justify-content: space-between;
+}
+#content .content_area .management2 li dt {
+    width: 200px;
+    background: #007ac3;
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px 0 0 0;
+    padding-top: 17px;
+    position: relative;
+}
+#content .content_area .management2 li dt::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #007ac3;
+    position: absolute;
+    right: -30px;
+    top: 30px;
+}
+#content .content_area .management2 li dd {
+    width: 950px;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+}
+#content .content_area .management2 li dd strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.05em;
+}
 
 
 
