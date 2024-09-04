@@ -1,49 +1,43 @@
-/* 서브 이미지 영역 */
-.sub_visual>span::before{
-    content: 'We Connet the Future';
-    display: block; position: absolute;
-    width: 100%; top: -15px; text-align: center;
-    font-size: 1rem; font-weight: 200;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, .3);}
 
-/* 중간 메뉴 */
-.sub_nav li{
-    width: 50%;
-    float: left;}
+#content .content_area section .contlist{
+    margin: 100px auto 50px auto;
+}
 
-/* ---------- 본문 영역 ---------- */
-/* ---------- Sub3_2 ---------- */
 /* 중간버튼 */
-#content .esg_manage_head .mid_menu{
+#content .esg_manage_head .tab_menu_all .tab_menu{
     padding: 0 auto;
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-#content .esg_manage_head .mid_menu li{
+#content .esg_manage_head .tab_menu_all .tab_menu li{
     border-radius: 20px 0 0 0;
-    width: 110px;
+    width: 31%;
     text-align: center;
     padding: 10px 5px;
 }
 
-#content .esg_manage_head .mid_menu li a{
+#content .esg_manage_head .tab_menu_all .tab_menu li a{
     font-size: .85rem;
     color: #fff;
 }
 
-#content .esg_manage_head .mid_menu li:nth-of-type(1){
-    background: url(../images/sub3/esg_mid_button_1.jpg) no-repeat;
+#content .esg_manage_head .tab_menu_all .tab_menu li:nth-of-type(1){
+    background: url(../images/content2/esg_mid_button_1.jpg) no-repeat 50% 50%;
+    background-position: center;
 }
-#content .esg_manage_head .mid_menu li:nth-of-type(2){
-    background: url(../images/sub3/esg_mid_button_2.jpg) no-repeat;
+#content .esg_manage_head .tab_menu_all .tab_menu li:nth-of-type(2){
+    background-position: center;
+    background: url(../images/content2/esg_mid_button_2.jpg) no-repeat 50% 50%;
 }
-#content .esg_manage_head .mid_menu li:nth-of-type(3){
-    background: url(../images/sub3/esg_mid_button_3.jpg) no-repeat;
+#content .esg_manage_head .tab_menu_all .tab_menu li:nth-of-type(3){
+    background-position: center;
+    background: url(../images/content2/esg_mid_button_3.jpg) no-repeat 50% 50%;
 }
 
-#content .esg_manage_head .mid_menu li div{
+#content .esg_manage_head .tab_menu_all .tab_menu li div{
     border: 2px solid #fff;
     width: 60px; height: 60px;
     border-radius: 100px ;
@@ -56,139 +50,107 @@
     line-height: 60px;
 }
 
-#content .esg_manage_content>div>img{
-    width: 610px;
-    padding: 0 auto;
-}
-
 #content .esg_manage_content .pic_content{
+    text-align: center;
+}
+#content .esg_manage_content .pic_content img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#content .content_area .green_2023{
+    width: 100%;
     position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#content .content_area .green_2023 .green_txt{
+    margin: 50px auto 0 auto;
+}
+#content .content_area .green_2023 .green_txt ul{
+    width: 272px;
+    margin-top: 50px;
+
+}
+#content .content_area .green_2023 .green_txt ul div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0;
+}
+/* #content .content_area .green_2023 .green_txt ul li{
+    margin: 30px auto;
+} */
+
+#content .content_area .green_2023 .green_txt .txt_01{
+    background: url(../images/content2/environ_1.png) no-repeat;
+    background-position: center;
+    width: 272px;
+    position: relative;
+    height: 390px;
+    /* padding: 50px; */
+    /* border: 1px solid red; */
+}
+#content .content_area .green_2023 .green_txt .txt_02{
+    background: url(../images/content2/environ_2.png) no-repeat;
+    background-position: center;
+    width: 272px;
+    position: relative;
+    height: 390px;
+}
+#content .content_area .green_2023 .green_txt .txt_03{
+    background: url(../images/content2/environ_3.png) no-repeat;
+    background-position: center;
+    width: 272px;
+    position: relative;
+    /* border: 1px solid red; */
+    height: 390px;
+}
+#content .content_area .green_2023 .green_txt .txt_04{
+    background: url(../images/content2/environ_4.png) no-repeat;
+    background-position: center;
+    width: 272px;
+    position: relative;
+    height: 390px;
+    border: 1px solid red;
 }
 
-#content .esg_manage_content .pic_content ul{
+#content .content_area .green_2023 .green_txt .txt_01 ul{
     position: absolute;
+    top: 150px;
 }
-
-#content .esg_manage_content .pic_content ul:nth-of-type(1){
-    position: absolute;
-    bottom: 60px; left: 60px;
-}
-
-#content .esg_manage_content .pic_content ul:nth-of-type(2){
-    position: absolute;
-    bottom: 60px; left: 245px;
-}
-
-#content .esg_manage_content .pic_content ul:nth-of-type(3){
-    position: absolute;
-    bottom: 75px; left: 430px;
-}
-
-#content .esg_manage_content .pic_content ul>p{
-    font-size: .95rem;
+#content .content_area .green_2023 .green_txt ul li:nth-of-type(1){
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-#content .esg_manage_content .pic_content ul li{
-    list-style: disc;
-    font-size: .75rem;
-    margin-left: 20px;
-    line-height: 1.2rem;
-}
-
-/* esg 평가 */
-
-#content .esg_manage_score ul{
-    display: flex;
-    flex-wrap: wrap; /* 요소가 너무 많을 때 다음 줄로 넘어가도록 설정 */
-    justify-content: center; /* 가운데 정렬 */
-    padding: 0; /* 내부 여백 제거 */
-}
-
-#content .esg_manage_score ul li{
-    flex-basis: 50%; /* 가로로 2개씩 배치되도록 설정 */
-    display: flex; /* 이미지와 텍스트를 수직으로 배치하기 위해 flex 사용 */
-    flex-direction: column; /* 수직으로 배치 */
-    justify-content: center; /* 가운데 정렬 */
-    align-items: center; /* 가운데 정렬 */
-    padding: 20px; /* 이미지와 텍스트 간격 설정 */
-    font-size: .95rem;
-    font-weight: 600;
-}
-
-#content .esg_manage_score ul li>img{
-    width: 250px;
-    margin-bottom: 10px; /* 이미지와 텍스트 간격 조정 */
-}
-
-#content .esg_manage_score div{
-    border-radius: 5px;
-    background: #ccc;
-    text-align: center;
-    width: 220px;
-    padding: 5px;
-    margin: 30px auto 0 auto;
-    font-size: .85rem;
-    font-weight: 300;
-}
-
-/* 보고서 다운로드 */
-#content .esg_manage_report div{
-    width: 100%;
-    height: 230px;
-    margin: 0 auto;
-    background: url(../images/sub3/esg_download.jpg) no-repeat;
-    background-size: cover; /* 이미지를 요소에 맞게 확대 또는 축소 */
-    background-position: center; /* 이미지를 가운데 정렬 */
-}
-/* 다운로드 텍스트 */
-#content .esg_manage_report div{
+#content .content_area .green_2023 .green_txt ul li:not(:nth-of-type(1)){
+    text-align: left;
+    font-size: 1rem;
+    padding: 0 15px;
+    margin-left: 30px;
     position: relative;
 }
 
-#content .esg_manage_report div .report_1{
+#content .content_area .green_2023 .green_txt ul li:not(:nth-of-type(1))::after{
+    content: "";
     position: absolute;
-    top: 60px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-#content .esg_manage_report div .report_2{
-    position: absolute;
-    top: 85px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-weight: 400;
-    font-size: .95rem;
-    text-align: center;
-}
-
-#content .esg_manage_report div .dwon_button{
-    position: absolute;
-    top: 85px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 150px;
-    height: 20px;
-    border: 1px solid #fff;
-    padding: 5px 15px;
-    background: rgba(0, 0, 0, .3);
-    margin-top: 80px;
-
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #333;
+    /* border: 1px solid red; */
 
 }
 
-#content .esg_manage_report div .dwon_button a{
-    color: #fff;
-    font-weight: 600;
-    text-align: center;
-    font-size: .95rem;
-}
+
 
 
