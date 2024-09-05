@@ -1,50 +1,71 @@
 /* ---------- Sub4_3 ---------- */
 /* 채용안내 */
-#content .content_area section .sub4_5 .hu_re_guide_1 {
-    margin-top: 60px;  display: flex; align-items: center; flex-flow: column;}
-#content .content_area section .sub4_5 .hu_re_guide_1 li {
-    display: flex; margin-top: -20px;}
-#content .content_area section .sub4_5 .hu_re_guide_1 dl{
-    width: 180px;
-    margin-top: 20px;
-    overflow: hidden;}
-#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_gui_title{
-    background: #007ac3;
-    color: #fff;
+#content .content_area section .con_item .con_box {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+#content .content_area section .con_item .con_box li {
+    /* display: flex; */
+    position: relative;
+    margin-top: -20px;
+}
+#content .content_area section .con_item .con_box dl{
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    /* transform: translateY(-50%); */
+    right: 0;
+}
+#content .content_area section .con_item .con_box li dt{
+    /* background: #007ac3; */
+    color: #007ac3;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#content .content_area section .con_item .con_box dd:nth-of-type(1){
+    color: #333;
     font-weight: 400;
-    text-align: center;
-    border-radius: 15px 0 0 0;
-    width: 70px;
-    padding: 5px;
-    float: left;}
-#content .content_area section .sub4_5 .hu_re_guide_1 dd:nth-of-type(1){
     text-align: left;
     font-size: 1.2rem;
-    color: #007ac3;
-    font-weight: 600;
-    float: right;
-    padding-top: 2px;
+    display: inline-block;
 }
-#content .content_area section .sub4_5 .hu_re_guide_1 dd:nth-of-type(2){
+#content .content_area section .con_item .con_box dl dd:nth-of-type(2){
     clear: both;
     font-size: 1.15rem;
-    margin-left: 20px;
-    padding-top: 10px;
-}
-#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_title>strong{
-    font-size: 1.25rem; }
-#content .content_area section .sub4_5 .hu_re_guide_1 img{
-    width: 160px; margin-right: 40px; float: left;}
-#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_con{
-    margin: 10px 0 0 22px;
-}
-#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_con dd{
+    margin: 10px 0 0 25px;
+    /* padding-top: 10px; */
     position: relative;
 }
-#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_con dd::before{
-    position: absolute;
+
+#content .content_area section .con_item .con_box dl dd:nth-of-type(2)::after{
     content: "";
-    width: 5px; height: 5px; border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    left: -10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
     background: #333;
-    top: 9px; left: -12px;
+    /* border: 1px solid red; */
+
+}
+#content .content_area section .con_item .con_box .hu_re_title>strong{
+    font-size: 1.25rem;
+}
+#content .content_area section .con_item .con_box img{
+    width: 40%;
+    float: left;
+}
+#content .content_area section .con_item .con_box .hu_re_con{
+    margin: 10px 0 0 22px;
+}
+#content .content_area section .con_item .con_box .hu_re_con dd{
+    position: relative;
 }
