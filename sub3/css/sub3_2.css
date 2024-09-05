@@ -85,37 +85,32 @@
 /* #content .content_area .green_2023 .green_txt ul li{
     margin: 30px auto;
 } */
-
+#content .content_area .green_2023 .green_txt .txt_box{
+    width: 272px;
+    height: 390px;
+}
 #content .content_area .green_2023 .green_txt .txt_01{
     background: url(../images/content2/environ_1.png) no-repeat;
     background-position: center;
-    width: 272px;
     position: relative;
-    height: 390px;
     /* padding: 50px; */
     /* border: 1px solid red; */
 }
 #content .content_area .green_2023 .green_txt .txt_02{
     background: url(../images/content2/environ_2.png) no-repeat;
     background-position: center;
-    width: 272px;
     position: relative;
-    height: 390px;
 }
 #content .content_area .green_2023 .green_txt .txt_03{
     background: url(../images/content2/environ_3.png) no-repeat;
     background-position: center;
-    width: 272px;
     position: relative;
     /* border: 1px solid red; */
-    height: 390px;
 }
 #content .content_area .green_2023 .green_txt .txt_04{
     background: url(../images/content2/environ_4.png) no-repeat;
     background-position: center;
-    width: 272px;
     position: relative;
-    height: 390px;
     border: 1px solid red;
 }
 
@@ -140,8 +135,8 @@
 #content .content_area .green_2023 .green_txt ul li:not(:nth-of-type(1))::after{
     content: "";
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 8px;
+    /* transform: translateY(-50%); */
     left: 0;
     width: 4px;
     height: 4px;
