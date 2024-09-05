@@ -1,0 +1,145 @@
+#content .content_area section .item_box{
+    margin: 100px auto 50px auto;
+}
+/* ---------- Sub4_2 - 인사제도 ---------- */
+/* 1. 직급제도 */
+#content .content_area section .con_item_1 .p3{
+    text-align: center;
+    margin: 5px 0 30px 0;
+}
+#content .content_area section .con_item_1 .bg_box{
+    height: 560px;
+    background: url(../images/content2/human_resources_2.png) no-repeat;
+    background-position : 90% center;
+    position: relative; overflow: hidden;
+}
+#content .content_area section .con_item_1 div ul{
+    margin-top: 60px;
+    margin-left: 5%;
+}
+#content .content_area section .con_item_1 .bg_box ul li{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+#content .content_area section .con_item_1 .bg_box ul li:nth-child(2){margin-bottom: 70px;}        
+#content .content_area section .con_item_1 .bg_box ul li:nth-child(3){margin-bottom: 65px;}  
+#content .content_area section .con_item_1 .bg_box ul li:nth-child(4){margin-bottom: 65px;}  
+#content .content_area section .con_item_1 .bg_box ul li span{color: #4ca1ed;}
+
+
+
+/* 2. 급여&포상제도 */
+#content .content_area section .con_item_2 div ul{
+    display: flex;
+    margin-top: 35px;
+}
+#content .content_area section .con_item_2 div ul li>img{
+    width: 110px;
+    padding: 20px;
+}
+#content .content_area section .con_item_2 div ul li:nth-of-type(1){
+    background:#58a7f4;
+    border-radius: 30px 0 0 0;
+    width: 150px;
+}
+#content .content_area section .con_item_2 div ul li:nth-of-type(2){
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    width: 100%;
+}
+#content .content_area section .con_item_2 div ul:nth-child(1) li:nth-child(2){
+    padding: 30px 20px 20px 20px;
+}
+#content .content_area section .con_item_2 div ul:nth-child(2) li:nth-child(2){
+    padding: 35px 20px 35px 20px;
+}
+
+/* 3. 복리후생제도 */
+#content .content_area section .con_item_3 .benefits_all{
+    position: relative;
+    margin: 50px 0;
+}
+#content .content_area section .con_item_3 .benefits_all>div{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:-70px;
+    background: #007ac3;
+    width: 120px; height: 120px; border-radius: 100px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600; font-size: 1.2rem;
+}
+
+/* 첫번째 */
+#content .content_area section .con_item_3 .benefits_all div>p{
+    padding: 21px 0;
+}
+#content .content_area section .con_item_3 .second div>p{
+    padding: 50px 0 0;
+}
+#content .content_area section .con_item_3 .benefits_all ul{
+    border-radius: 15px;
+    background: #cccccc9f;
+    padding: 70px 25px 30px 25px;
+    margin-top: 100px;
+}
+
+#content .content_area section .con_item_3 .benefits_all ul li{
+    list-style: disc;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    margin-left: 25px;
+}
+
+/* ---------- Sub4_3 ---------- */
+/* 채용안내 */
+#content .content_area section .sub4_5 .hu_re_guide_1 {
+    margin-top: 60px;  display: flex; align-items: center; flex-flow: column;}
+#content .content_area section .sub4_5 .hu_re_guide_1 li {
+    display: flex; margin-top: -20px;}
+#content .content_area section .sub4_5 .hu_re_guide_1 dl{
+    width: 180px;
+    margin-top: 20px;
+    overflow: hidden;}
+#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_gui_title{
+    background: #007ac3;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 15px 0 0 0;
+    width: 70px;
+    padding: 5px;
+    float: left;}
+#content .content_area section .sub4_5 .hu_re_guide_1 dd:nth-of-type(1){
+    text-align: left;
+    font-size: 1.2rem;
+    color: #007ac3;
+    font-weight: 600;
+    float: right;
+    padding-top: 2px;
+}
+#content .content_area section .sub4_5 .hu_re_guide_1 dd:nth-of-type(2){
+    clear: both;
+    font-size: 1.15rem;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_title>strong{
+    font-size: 1.25rem; }
+#content .content_area section .sub4_5 .hu_re_guide_1 img{
+    width: 160px; margin-right: 40px; float: left;}
+#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_con{
+    margin: 10px 0 0 22px;
+}
+#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_con dd{
+    position: relative;
+}
+#content .content_area section .sub4_5 .hu_re_guide_1 .hu_re_con dd::before{
+    position: absolute;
+    content: "";
+    width: 5px; height: 5px; border-radius: 50px;
+    background: #333;
+    top: 9px; left: -12px;
+}
