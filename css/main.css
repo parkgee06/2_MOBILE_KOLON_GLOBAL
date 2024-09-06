@@ -17,33 +17,33 @@
     font-family: "Fugaz One", sans-serif;}
 
 /* 공동 */
-#index_main section h2{
+#content section h3{
     font-size: 2.8rem; font-weight: 500;
     margin-top: 100px; text-align: center;
     position: relative;}
-#index_main section h3{
+#content section h4{
     font-size: 1.4rem; text-align: center;}
-#index_main section h4{
+#content section h5{
     font-size: .9rem; margin-top: 100px; text-align: center;}
-#index_main section h5{
-    font-size: .8rem; margin-top: 100px; text-align: center;}
-#index_main section>span{
+/* #content section h5{
+    font-size: .8rem; margin-top: 100px; text-align: center;} */
+#content section>span{
     font-size: 1rem; color: #007AC3;
     font-weight: 200; text-align: center;
     display: block;}
-#index_main section>p{
+#content section>p{
     font-size: 1.2rem; font-weight: 400;
     text-align: center; margin: 80px 0 10px 0;}
-#index_main section h2::after{
+#content section h2::after{
     content: '';  display: block;
     width: 1.2px; height: 45px;
     background: #ED1B2E; position: absolute;
     top: 95px; left: 50%;}
 
 /* 본문영역 1. 회사소개 */
-#index_main .about .box2 .swiper-container .swiper-wrapper .swiper-slide>img{
+#content .about .box2 .swiper-container .swiper-wrapper .swiper-slide>img{
     width: 100%; position: relative;}
-#index_main .about .box2 .swiper-container .swiper-wrapper .swiper-slide a>h3{
+#content .about .box2 .swiper-container .swiper-wrapper .swiper-slide a>h4{
     position: absolute;  font-size: .9rem;  bottom: 40px;
     left: 50%; transform: translateX(-50%);
     border: 1px solid #fff;
@@ -54,13 +54,13 @@
     color: #fff;}
 
 /* 본문영역 2. 사업소개 */
-#index_main .business .mid_menu a.active { background:#007AC3; color: #fff; font-weight:600; }
-#index_main .business .mid_menu{
+#content .business .mid_menu a.active { background:#007AC3; color: #fff; font-weight:600; }
+#content .business .mid_menu{
     display: flex; border: 1px solid #ccc;
     padding: 7px 0; margin:20px  auto;}
-#index_main .business .mid_menu li{
+#content .business .mid_menu li{
     position: relative; width: 33.33%; text-align: center;}
-#index_main .business .mid_menu li:not(:last-child)::before{
+#content .business .mid_menu li:not(:last-child)::before{
     content: '';
     background: #333;
     width: 1px;
@@ -69,62 +69,62 @@
     top: 50%;
     transform: translateY(-50%);
     right: 0;}
-#index_main .business .mid_menu>li a{padding: 3px 0;}
-#index_main .business .swiper_tab li {position: relative;}
-#index_main .business .swiper_tab li>img{width: 100%;}
-#index_main .business .swiper_tab .business_content a{
+#content .business .mid_menu>li a{padding: 3px 0;}
+#content .business .swiper_tab li {position: relative;}
+#content .business .swiper_tab li>img{width: 100%;}
+#content .business .swiper_tab .business_content a{
     background: #007cc3d6;
     border-radius: 20px 0 0 0;
     width: 80%; position: absolute;
     bottom: -80px; left: 50%;
     transform: translateX(-50%);   color: #fff;
     padding: 20px;}
-#index_main .business .swiper_tab .business_content a h3{
+#content .business .swiper_tab .business_content a h4{
     display: inline; font-size: 1.3rem;
     text-align: left; font-weight: 600;}
-#index_main .business .swiper_tab .business_content a span{
+#content .business .swiper_tab .business_content a span{
     font-weight: 300; margin-left: 10px;}
-#index_main .business .swiper_tab .business_content a p{
+#content .business .swiper_tab .business_content a p{
     font-weight: 400; margin-top: 10px; text-align: justify;}
-#index_main .business .swiper_tab .swiper-wrapper{padding-bottom: 100px;}
+#content .business .swiper_tab .swiper-wrapper{padding-bottom: 100px;}
 
 /* 본문영역 3. 지속가능경영 */
-#index_main .manage div{
+#content .manage div{
     width: 100%;
     height: auto;
     background: url(../images/main/manage_back.jpg) center no-repeat; background-size: cover; }
-#index_main .manage div ul li{
+#content .manage div ul li{
     height: 171px; overflow: hidden;
     border-bottom: 1px solid #fff;
     position: relative;}
-#index_main .manage p{margin-bottom: 20px;}
-#index_main .manage div ul li a{display: flex; justify-content: space-between;
+#content .manage p{margin-bottom: 20px;}
+#content .manage div ul li a{display: flex; justify-content: space-between;
    width:86%; margin: 50px auto;}
-#index_main .manage div ul li img{
+#content .manage div ul li img{
     width: 70px;  height: 70px;}
-#index_main .manage div ul li h3{
+#content .manage div ul li h4{
     color: #fff; margin-top: 25px;
     font-weight: 500;}
-#index_main .manage div ul li i{
+#content .manage div ul li i{
     color: #fff;  font-size: 1.5rem; margin-top: 25px;}
 
 /* 본문영역 4. 인재채용 */
-#index_main .human_resources .human_all{
+#content .human_resources .human_all{
     width: 100%; height: 340px;
     background: url(../images/main/human_back.jpg) center no-repeat; 
     background-size: cover; margin-bottom: 150px; overflow: visible;}
-#index_main .human_resources .human_content{
+#content .human_resources .human_content{
     font-weight: 700; top:200px}
-#index_main .human_resources .human_content li{
+#content .human_resources .human_content li{
     display: block;
     text-align: center; 
     width: 150px; height: 150px;
     border-top-left-radius: 30px; 
     padding: 30px; }
-#index_main .human_resources .human_content li a h3{ color: #fff; font-weight: 500;}
-#index_main .human_resources .human_content li:nth-of-type(1){background: #5AA9F6;}
-#index_main .human_resources .human_content li:nth-of-type(2){background: #007AC3;}
-#index_main .human_resources .human_content li:nth-of-type(3){background: #114566;}
-#index_main .human_resources .human_content li a>img{width: 100px;  padding-bottom: 20px; }
+#content .human_resources .human_content li a h4{ color: #fff; font-weight: 500;}
+#content .human_resources .human_content li:nth-of-type(1){background: #5AA9F6;}
+#content .human_resources .human_content li:nth-of-type(2){background: #007AC3;}
+#content .human_resources .human_content li:nth-of-type(3){background: #114566;}
+#content .human_resources .human_content li a>img{width: 100px;  padding-bottom: 20px; }
 
 
