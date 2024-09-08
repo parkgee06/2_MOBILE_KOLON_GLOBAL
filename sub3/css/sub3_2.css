@@ -50,16 +50,21 @@
 
 #content .esg_manage_head .tab_menu_all .tab_menu li div{
     border: 2px solid #fff;
-    width: 60px; height: 60px;
-    border-radius: 100px ;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
     text-align: center;
-    margin: 10px;
+    margin: 0px auto;
     font-size: 2rem;
     font-weight: 800;
     color: #fff;
-    display: inline-block;
-    line-height: 60px;
+    display: block;
 }
+
+#content .esg_manage_head .tab_menu_all .tab_menu li span{
+    display: inline-block;
+}
+
 /* 중간버튼 끝 */
 
 
