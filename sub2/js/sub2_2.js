@@ -30,9 +30,7 @@ function onOff() {
                             <img src="${data[i].attImg}" alt="${data[i].attTitle}">
                         </div>
                         <dl>
-                            <dt class="attTitle">
-                                <h5>${data[i].attTitle}</h5>
-                            </dt>
+                            <dt class="attTitle">${data[i].attTitle}</dt>
                             <dd class="attText1">${data[i].attText1}</dd>
                         </dl>
                         <p class="more_btn">
