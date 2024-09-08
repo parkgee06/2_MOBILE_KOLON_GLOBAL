@@ -12,7 +12,10 @@
     width: 33.333%;
     float: left;
 }
-
+#content .content_area{
+    width: 93%;
+    margin: 0 auto;
+}
 
 /* 중간탭 */
 #content .tab_menu_all {

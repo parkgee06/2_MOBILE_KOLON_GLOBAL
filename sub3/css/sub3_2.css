@@ -1,3 +1,9 @@
+#content .content_area{
+    width: 93%;
+    margin: 0 auto;
+    /* margin-bottom: 100px; */
+}
+
 #content .content_area section .contlist{
     margin: 100px auto 50px auto;
 }
