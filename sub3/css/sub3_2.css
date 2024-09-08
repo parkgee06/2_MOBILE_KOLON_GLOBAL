@@ -54,11 +54,14 @@
     height: 60px;
     border-radius: 100px;
     text-align: center;
-    margin: 0px auto;
+    margin: 0 auto;
     font-size: 2rem;
     font-weight: 800;
     color: #fff;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
 }
 
 #content .esg_manage_head .tab_menu_all .tab_menu li span{
@@ -291,6 +294,8 @@
 #content .content_area section .governance_box .con_txt .txt_sec{
     width: 98%;
     margin: 20px auto;
+    border-radius: 20px 0 0 0;
+    border: 1px solid #ccc;
 }
 #content .content_area section .governance_box .con_txt .txt_sec p{
     background: #007AC3;
@@ -301,38 +306,42 @@
     padding: 8px 0;
     font-size: 1.2rem;
 }
-
-#content .content_area section .governance_box .con_txt .txt_sec>ol{
-    list-style:decimal;
-    border: 1px solid #ccc;
+#content .content_area section .governance_box .con_txt .txt_sec ul:not(:nth-of-type(2)){
+    list-style: decimal;
     padding: 30px 22px 30px 30px;
-    /* height: 420px; */
 }
 
-#content .content_area section .governance_box .con_txt .txt_sec ol>li{
+#content .content_area section .governance_box .con_txt .txt_sec ul:nth-of-type(2){
+    padding: 0px 22px 30px 30px;
+}
+
+
+#content .content_area section .governance_box .con_txt .txt_sec .item_box .item_box_tit{
     font-weight: 600;
     font-size: 1.1rem;
+    margin-bottom: 15px;
 }
 
-#content .content_area section .governance_box .con_txt .txt_sec ol>li:nth-of-type(2){
-    margin-top: 40px;
-}
-
-#content .content_area section .governance_box .con_txt .txt_sec ol>ul{
-    margin: 10px 0 0 10px;
+#content .content_area section .governance_box .con_txt .txt_sec .item_box>li:not(:nth-of-type(1)){
+    /* border: 1px solid red; */
     font-size: 1.05rem;
-}
-
-#content .content_area section .governance_box .con_txt .txt_sec ol ul li{
+    margin: 10px 0px 8px 10px;
     list-style: disc;
-    margin-bottom: 8px;
 }
 
-#content .content_area section .governance_box .con_txt .con_02 ol ul ul li{
+#content .content_area section .governance_box .con_txt .txt_sec .item_box_3 ul {
     list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#content .content_area section .governance_box .con_txt .txt_sec .item_box_3 ul li{
+    /* list-style: none; */
     line-height: .85rem;
     font-size: .85rem;
+    margin: 0px 0 8px 10px;
     /* border: 1px solid red; */
 }
+
 
 
