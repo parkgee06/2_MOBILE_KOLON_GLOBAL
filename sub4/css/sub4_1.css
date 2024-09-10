@@ -39,11 +39,11 @@
 #content .content_area section .con_item .hu_re_con{
     margin: 10px 0 0 22px;
 }
-#content .content_area section .con_item .hu_re_con dd{
+#content .content_area section .con_item .hu_re_con p{
     position: relative;
-    font-size: .95rem;
+    font-size: .9rem;
 }
-#content .content_area section  .con_item .hu_re_con dd::before{
+#content .content_area section  .con_item .hu_re_con p::before{
     position: absolute;
     content: "";
     width: 4px; height: 4px; border-radius: 50px;
